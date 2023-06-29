@@ -1,0 +1,79 @@
+.top-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 11px;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+}
+
+.userImg {
+    width: 2.5rem;
+    border-radius: 50%;
+}
+
+.graph-container {
+    background-color: white;
+    border-radius: 11px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 11px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+.line {
+    height: 3rem;
+    width: 0rem;
+    border: 1px solid black;
+    margin-left: 11px;
+}
+
+.graph-top-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.adjusting-gap {
+    display: flex;
+    gap: 1rem;
+}
+
+.graph-data {
+    font-size: 12px;
+    font-weight: 100;
+    color: rgb(115, 115, 115);
+}
+
+table {
+    background-image: '../../assets/graph.svg';
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+}
+
+.graph-data table {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.nextDayBtn {
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    font-weight: 500;
+    background-color: gainsboro;
+    border-radius: 5px;
+    padding: 2px;
+    padding-left: 8px;
+}

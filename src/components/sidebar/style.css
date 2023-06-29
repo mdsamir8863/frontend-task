@@ -1,0 +1,68 @@
+.sideBar {
+    color: aliceblue;
+}
+
+.top {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: aliceblue;
+    font-size: 12px;
+}
+
+.slideNext1 {
+    height: 0px;
+    width: 13px;
+    border: 2px solid white;
+    border-radius: 6px;
+}
+
+.slideNext {
+    display: flex;
+    gap: 5px;
+}
+
+.slideNext2 {
+    height: 0px;
+    width: 3px;
+    border: 2px solid #ffffffae;
+    border-radius: 6px;
+}
+
+.slideNext3 {
+    height: 0px;
+    width: 3px;
+    border: 2px solid #ffffffae;
+    border-radius: 6px;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 11px 0;
+    padding: 2rem 0;
+}
+
+.temp-wrapper {
+    text-align: center;
+    /* padding-top: 2rem; */
+}
+
+.aligning {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.temp {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}

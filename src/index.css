@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.fs-14 {
+  font-size: 14px;
+  color: aliceblue;
+
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-10 {
+  font-size: 10px;
+  color: #737373;
+}
+
+body {
+  background-color: #082238;
+  padding: 1rem;
+  font-family: Mulish, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-container {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.sidebar-container {
+  width: 30%;
+  border-radius: 1.5rem 0 0 2rem;
+  padding: 15px;
+  background-image: url('./assets/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.graph-and-more-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(27 36 84);
+  padding: 2rem;
+  border-radius: 1.5rem;
+  margin-left: -1.3rem;
+  color: aliceblue !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+
+/* MEDIA QUARRY FOR MOBILE SCREEN */
+@media screen and (max-width: 850px) {
+  .main-container {
+    flex-direction: column;
+
+  }
+
+  .sidebar-container {
+    border-radius: 2rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    background-size: 100% 100%;
+  }
+
+  .graph-and-more-container {
+    margin-left: 0rem;
+  }
+
+  .middle {
+    padding: 5px 0;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .d-none {
+    display: none;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin: 5px;
+  }
+}
