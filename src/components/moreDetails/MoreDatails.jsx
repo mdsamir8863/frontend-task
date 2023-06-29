@@ -7,7 +7,7 @@ import ThunderstormIcon from "@mui/icons-material/Thunderstorm";
 const MoreDatails = () => {
   return (
     <div>
-      <h5 style={{margin:"1rem 0rem"}}>More details of today's weather</h5>
+      <h5 style={{ margin: "1rem 0rem" }}>More details of today's weather</h5>
       <div className="weather-container">
         <div className="box-container fs-12">
           <div className="box humidity">
@@ -28,7 +28,7 @@ const MoreDatails = () => {
                   </meter>
                 </p>
               </p>
-              <p style={{padding: "0 5px"}}>
+              <p style={{ padding: "0 5px" }}>
                 Normal
                 <p>
                   <meter id="%" value="8" min="0" max="10">
@@ -49,7 +49,7 @@ const MoreDatails = () => {
           <div className="box humidity">
             <div className="top">
               <p>Wind</p>
-              <AirIcon color="primary" />
+              <ThermostatIcon color="primary" />
             </div>
             <p className="" style={{ textAlign: "center" }}>
               <span style={{ fontSize: "16px", fontWeight: "bold" }}>85%</span>{" "}
@@ -64,7 +64,7 @@ const MoreDatails = () => {
                   </meter>
                 </p>
               </p>
-              <p style={{padding: "0 5px"}}>
+              <p style={{ padding: "0 5px" }}>
                 Normal
                 <p>
                   <meter id="%" value="8" min="0" max="10">
@@ -85,7 +85,7 @@ const MoreDatails = () => {
           <div className="box humidity">
             <div className="top">
               <p>Precipitation</p>
-              <AirIcon color="primary" />
+              <CloudIcon color="primary" />
             </div>
             <p className="" style={{ textAlign: "center" }}>
               <span style={{ fontSize: "16px", fontWeight: "bold" }}>85%</span>{" "}
@@ -100,7 +100,7 @@ const MoreDatails = () => {
                   </meter>
                 </p>
               </p>
-              <p style={{padding: "0 5px"}}>
+              <p style={{ padding: "0 5px" }}>
                 Normal
                 <p>
                   <meter id="%" value="8" min="0" max="10">
@@ -118,14 +118,12 @@ const MoreDatails = () => {
               </p>
             </div>
           </div>
-          {/* <div className="box wind"></div>
-          <div className="box precipitation"></div> */}
         </div>
         <div className="box-container fs-12">
           <div className="box humidity">
             <div className="top">
               <p>UV index</p>
-              <AirIcon color="primary" />
+              <ThermostatIcon color="primary" />
             </div>
             <p className="" style={{ textAlign: "center" }}>
               <span style={{ fontSize: "16px", fontWeight: "bold" }}>85%</span>{" "}
@@ -140,7 +138,7 @@ const MoreDatails = () => {
                   </meter>
                 </p>
               </p>
-              <p style={{padding: "0 5px"}}>
+              <p style={{ padding: "0 5px" }}>
                 Normal
                 <p>
                   <meter id="%" value="8" min="0" max="10">
@@ -176,7 +174,7 @@ const MoreDatails = () => {
                   </meter>
                 </p>
               </p>
-              <p style={{padding: "0 5px"}}>
+              <p style={{ padding: "0 5px" }}>
                 Normal
                 <p>
                   <meter id="%" value="8" min="0" max="10">
@@ -197,7 +195,7 @@ const MoreDatails = () => {
           <div className="box humidity">
             <div className="top">
               <p>Chance of rain</p>
-              <AirIcon color="primary" />
+              <ThunderstormIcon color="primary" />
             </div>
             <p className="" style={{ textAlign: "center" }}>
               <span style={{ fontSize: "16px", fontWeight: "bold" }}>85%</span>{" "}
@@ -212,7 +210,7 @@ const MoreDatails = () => {
                   </meter>
                 </p>
               </p>
-              <p style={{padding: "0 5px"}}>
+              <p style={{ padding: "0 5px" }}>
                 Normal
                 <p>
                   <meter id="%" value="8" min="0" max="10">
@@ -230,8 +228,6 @@ const MoreDatails = () => {
               </p>
             </div>
           </div>
-          {/* <div className="box wind"></div>
-          <div className="box precipitation"></div> */}
         </div>
       </div>
     </div>
